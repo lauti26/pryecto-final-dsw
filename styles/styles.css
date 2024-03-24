@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.paginaweb {
+    background-image: url(../assets/images/imgmotos/KAWA.jpg);
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+}
+
+header {
+    padding: 15px;
+    margin: 15px;
+    border: 20px;
+}
+
+
+nav {
+    padding: 25px;
+    border: 30px
+}
+
+nav ul {
+    list-style: none;
+}
+nav ul li {
+    display: inline;
+    margin: 0 60px;
+}
+
+header nav ul {
+    left: 1000px;
+    bottom: 30px;
+}
+
+
+h1 {
+    text-align: center;
+    color: rgb(255, 25, 25);
+}
+
+h2 {
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+    color: white;
+}
+
+
+h4 {
+    padding: 10px;
+    color: white;
+    background-color: black;
+    text-align: center
+}
+
+.grilla {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 750px 750px;
+    grid-template-rows: 400px;
+    grid-template-areas:
+        "section section"
+        "section section"
+        "footer"
+}
+
+.producto-1 {
+    grid-area: section;
+}
+
+.producto-2 {
+    grid-area: section;
+}
+
+.pie {
+    grid-area: footer;
+}
+
+img {
+    display: inline;
+}
+
+div {
+    color: white;
+    background-color: black;
+}
+
+P {
+    color: white;
+    background-color: brown;
+}
+
+
+h3 {
+    color: white;
+    text-align: center;
+    background-color: brown;
+}
+
+.subtitulo {
+    display: block;;
+}
+
+.info {
+    margin: 100px;
+}
+
+.listas {
+    color: white
+}
+
+aside {
+    background-color: black;
+    color: white;
+}
+
+footer div {
+    padding: 30px;
+    margin: 40px;
+    text-align: center;
+}
+
+/*css de venta de aceite */
+
+.menu {
+    width: 100%;
+    border: 3px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.seccion-1 {
+    width: 300px;
+}
+
+.aceite {
+    padding: 30px;
+}
